@@ -1,0 +1,15 @@
+{
+    "theme": "light",
+    "title": "Le dolcezze di Giorgia",
+    "headerImage": "./assets/images/header.jpg",
+    "footerLinks": [
+        {
+            "url": "https://facebook.com/GiorgiaMissCake",
+            "text": "Scoprimi su Facebook"
+        },
+        {
+            "url": "tel:+394444444444",
+            "text": "Chiamami"
+        }
+    ]
+}
