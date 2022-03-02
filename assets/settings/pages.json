@@ -1,7 +1,7 @@
 [
     {
         "id": "p1",
-        "name": "pagina 1",
+        "name": "Pasticera celiaca",
         "content": [
             {
                 "tag": "h2",
@@ -19,11 +19,11 @@
     },
     {
         "id": "p2",
-        "name": "pagina 2",
+        "name": "Pasticera creativa",
         "content": [
             {
                 "tag": "h2",
-                "text": "Pasticera simpaticona"
+                "text": "Pasticera creativa"
             },
             {
                 "tag": "p",
@@ -41,7 +41,7 @@
     },
     {
         "id": "p3",
-        "name": "pagina 3",
+        "name": "Pasticera burlona",
         "content": [
             {
                 "tag": "h2",
@@ -59,7 +59,7 @@
     },
     {
         "id": "p4",
-        "name": "pagina 4",
+        "name": "Pasticera demente",
         "content": [
             {
                 "tag": "h2",

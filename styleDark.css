@@ -19,8 +19,9 @@ body {
     background-color: rgb(48, 47, 47);
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 2fr 3fr 1fr;
+    grid-template-rows: 300px 70px auto 200px;
     grid-template-areas: "header"
+                         "menu"
                          "content"
                          "footer";
     height: 100%;
@@ -35,6 +36,33 @@ header {
     align-items: center;
     /* background-color: aqua; */
 }
+
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #474646;
+}
+
+.nav-menu a {
+    min-width: 200px;
+    height: 100%;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+    font-family: 'Merienda One', cursive;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.nav-menu a:hover {
+    background-color: rgb(48, 47, 47);
+    color: white;
+}
+
 
 .main-title {
     font-family: 'Merienda One', cursive;
@@ -53,6 +81,7 @@ header {
     text-align: center;
     padding-top: 30px;
     padding-bottom: 50px;
+    /* background-color: red; */
 }
 
 .page-content img {
@@ -66,9 +95,11 @@ footer {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    /* background-color: yellow; */
 }
 
 .link-container {
+    /* border: 1px solid white; */
     padding: 30px;
 }
 
